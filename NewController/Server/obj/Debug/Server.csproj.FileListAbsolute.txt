@@ -1,0 +1,7 @@
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\bin\Debug\Server.exe.config
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\bin\Debug\Server.exe
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\bin\Debug\Server.pdb
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\obj\Debug\Server.exe
+C:\Users\Song\Desktop\Projects\Andromeda\NewController\Server\obj\Debug\Server.pdb
