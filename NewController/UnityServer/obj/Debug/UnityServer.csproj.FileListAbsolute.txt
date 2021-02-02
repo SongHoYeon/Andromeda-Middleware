@@ -1,7 +1,0 @@
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\bin\Debug\UnityServer.exe.config
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\bin\Debug\UnityServer.exe
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\bin\Debug\UnityServer.pdb
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\obj\Debug\UnityServer.csprojAssemblyReference.cache
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\obj\Debug\UnityServer.csproj.CoreCompileInputs.cache
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\obj\Debug\UnityServer.exe
-C:\Users\Song\Desktop\Projects\Andromeda\NewController\UnityServer\obj\Debug\UnityServer.pdb

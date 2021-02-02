@@ -5,3 +5,10 @@ C:\Users\Song\Desktop\Projects\Andromeda\NewController\Client\obj\Debug\Client.c
 C:\Users\Song\Desktop\Projects\Andromeda\NewController\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\Song\Desktop\Projects\Andromeda\NewController\Client\obj\Debug\Client.exe
 C:\Users\Song\Desktop\Projects\Andromeda\NewController\Client\obj\Debug\Client.pdb
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\bin\Debug\Client.exe.config
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\bin\Debug\Client.exe
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\bin\Debug\Client.pdb
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\obj\Debug\Client.exe
+C:\Users\ANDRO_MSI_\Desktop\Andromeda-master\NewController\Client\obj\Debug\Client.pdb

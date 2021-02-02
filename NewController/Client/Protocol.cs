@@ -30,12 +30,16 @@ namespace Client
         StreamWriter sw;
         int idx;
         bool isConnect;
+        string ip;
+        char id;
 
         private static readonly Lazy<Protocol> _instance = new Lazy<Protocol>(() => new Protocol());
         public static Protocol Instance { get { return _instance.Value; } }
 
-        public void Init()
+        public void Init(string ip, char id)
         {
+            this.ip = ip;
+            this.id = id;
             sockClient = new TcpClient();
             Thread receiveMessageThread = new Thread(ReceiveMessage);
 
@@ -63,12 +67,13 @@ namespace Client
                     try
                     {
                         sockClient = new TcpClient();
-                        sockClient.Connect("192.168.0.2", 9090); //소켓생성,커넥트
+                        Console.WriteLine("Client Start = " + ip + ":9090");
+                        sockClient.Connect(ip, 9090); //소켓생성,커넥트
                         isConnect = true;
                         ns = sockClient.GetStream();
                         sr = new StreamReader(ns);
                         sw = new StreamWriter(ns);
-                        sw.WriteLine(((int)ProtocolNames.SetClient).ToString());
+                        sw.WriteLine(((int)ProtocolNames.SetClient).ToString() + ":" + id);
                         sw.Flush();
                     }
                     catch
@@ -92,15 +97,15 @@ namespace Client
                     else if (strRecvMsg.Split(':')[0] == ((int)ProtocolNames.RunClientUnityResponse).ToString())
                     {
                         Console.WriteLine("Open Unity");
-                        System.Diagnostics.Process.Start("notepad.exe");
+                        System.Diagnostics.Process.Start("2020_FTX.exe");
                     }
                     else if (strRecvMsg.Split(':')[0] == ((int)ProtocolNames.CloseUnityResponse).ToString())
                     {
                         Console.WriteLine("Close Unity");
-                        //string processName = taskname.Replace("notepad.exe", "");
 
-                        foreach (Process process in Process.GetProcessesByName("notepad"))
+                        foreach (Process process in Process.GetProcessesByName("2020_FTX"))
                         {
+                            Console.WriteLine(process);
                             process.Kill();
                         }
                     }
